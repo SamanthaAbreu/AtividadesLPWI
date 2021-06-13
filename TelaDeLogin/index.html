@@ -14,9 +14,12 @@
         <div class="content first-content">
             <div class="first-column">
                 <h2 class="title title-primary">Seja Bem Vindo(a)!</h2>
-                <p class="description description-primary">Para se manter conectado</p>
-                <p class="description description-primary">faça login com suas informações pessoais</p>
-                <button id="signin" class="btn btn-primary">Iniciar sessão</button>
+                <p class="description description-primary">Nossa livraria é composta por  diversos  </p>
+                <p class="description description-primary" >livros para diversos gostos e idade.</p>
+                <p></p>
+                <p class="description description-primary">Para saber mais crie sua conta</p>
+                <p class="description description-primary">e fique por dentro de tudo!</p>
+              <!--  <button id="signin" class="btn btn-primary">Iniciar sessão</button> -->
             </div>    
             <div class="second-column">
                 <h2 class="title title-second">Crie sua conta</h2>
@@ -40,11 +43,12 @@
                     </ul>
                 </div><!-- social media -->
                 <p class="description description-second">ou use seu e-mail para registro:</p>
-                <form action="index.php" method="POST">
+               <!-- <form action="index.php" method="POST"> -->
                 <form class="form">
                     <label class="label-input" for="">
                         <i class="far fa-user icon-modify"></i>
-                        <input type="text" placeholder="Nome">
+                        <!-- ADD UM (ID="NOME") -->
+                        <input type="text" placeholder="Nome" id="nome">
                     </label>
                     
                     <label class="label-input" for="">
@@ -57,8 +61,8 @@
                         <input type="password" placeholder="Senha">
                     </label>
                     
-                    
-                    <button class="btn btn-second">Inscreva-se</button>        
+                    <!-- NO BOTÃO INSCREVA-SE ADD (ONCLICK="CAPTURA()")  PARA CHAMAR A FUNÇÃO NO JAVASCRIPT -->
+                    <button class="btn btn-second" onclick="captura()">Inscreva-se</button>        
                 </form>
             </div><!-- second column -->
         </div><!-- first content -->
